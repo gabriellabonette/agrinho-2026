@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AgroSmart | Agrinho 2026</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                🌱 AgroSmart
+            </div>
+
+            <ul class="menu">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#problema">Problema</a></li>
+                <li><a href="#solucao">Solução</a></li>
+                <li><a href="#tecnologia">Tecnologia</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <!-- INÍCIO -->
+    <main>
+
+        <section id="inicio" class="hero">
+
+            <div class="hero-text">
+
+                <span class="tag">🌾 AGRINHO 2026</span>
+
+                <h1>
+                    Tecnologia para uma
+                    <span>agricultura sustentável</span>
+                </h1>
+
+                <p>
+                    O AgroSmart é uma proposta que utiliza tecnologia
+                    para ajudar produtores a economizar água, cuidar
+                    do solo e tornar a produção agrícola mais sustentável.
+                </p>
+
+                <div class="buttons">
+                    <a href="#solucao" class="btn-primary">
+                        Conheça o projeto
+                    </a>
+
+                    <a href="#tecnologia" class="btn-secondary">
+                        Como funciona
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="hero-card">
+
+                <div class="plant-icon">
+                    🌱
+                </div>
+
+                <h2>AgroSmart</h2>
+
+                <p>
+                    Irrigação inteligente para o futuro do campo.
+                </p>
+
+                <div class="data">
+                    <div>
+                        <strong>💧</strong>
+                        <span>Economia de água</span>
+                    </div>
+
+                    <div>
+                        <strong>🌱</strong>
+                        <span>Preservação</span>
+                    </div>
+
+                    <div>
+                        <strong>📱</strong>
+                        <span>Tecnologia</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- PROBLEMA -->
+        <section id="problema" class="section">
+
+            <div class="section-title">
+                <span>O DESAFIO</span>
+
+                <h2>
+                    Como podemos melhorar
+                    a agricultura?
+                </h2>
+
+                <p>
+                    A agricultura depende de recursos naturais,
+                    principalmente da água. O desperdício durante
+                    a irrigação pode prejudicar o meio ambiente
+                    e aumentar os custos para o produtor.
+                </p>
+            </div>
+
+            <div class="cards">
+
+                <div class="card">
+                    <div class="icon">💧</div>
+
+                    <h3>Desperdício de água</h3>
+
+                    <p>
+                        A irrigação sem controle pode utilizar
+                        mais água do que o necessário para as plantas.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <div class="icon">🌎</div>
+
+                    <h3>Impacto ambiental</h3>
+
+                    <p>
+                        O uso inadequado dos recursos naturais
+                        pode causar impactos no solo e no ambiente.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <div class="icon">💰</div>
+
+                    <h3>Aumento de custos</h3>
+
+                    <p>
+                        O desperdício de água e energia também
+                        pode aumentar os gastos do produtor.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- SOLUÇÃO -->
+        <section id="solucao" class="section solution">
+
+            <div class="section-title">
+
+                <span>A NOSSA SOLUÇÃO</span>
+
+                <h2>
+                    Irrigação mais inteligente
+                </h2>
+
+                <p>
+                    O AgroSmart propõe o uso de sensores para
+                    identificar as condições do solo e auxiliar
+                    no controle da irrigação.
+                </p>
+
+            </div>
+
+            <div class="solution-grid">
+
+                <div class="solution-text">
+
+                    <h3>Como o AgroSmart ajuda?</h3>
+
+                    <p>
+                        Sensores podem verificar a umidade do solo
+                        e enviar essas informações para um sistema.
+                        Dessa forma, a irrigação pode ser realizada
+                        quando realmente for necessária.
+                    </p>
+
+                    <ul>
+                        <li>💧 Controle da irrigação</li>
+                        <li>🌱 Monitoramento do solo</li>
+                        <li>📊 Análise das informações</li>
+                        <li>🌎 Uso consciente dos recursos</li>
+                    </ul>
+
+                </div>
+
+                <div class="solution-box">
+
+                    <div class="sensor">
+                        📡
+                    </div>
+
+                    <h3>Sensor de umidade</h3>
+
+                    <p>
+                        Monitora a umidade do solo para auxiliar
+                        na decisão de quando irrigar.
+                    </p>
+
+                    <button onclick="mostrarMensagem()">
+                        Testar sistema
+                    </button>
+
+                    <p id="mensagem"></p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- TECNOLOGIA -->
+        <section id="tecnologia" class="section">
+
+            <div class="section-title">
+
+                <span>TECNOLOGIA</span>
+
+                <h2>
+                    Como funciona o projeto?
+                </h2>
+
+            </div>
+
+            <div class="steps">
+
+                <div class="step">
+                    <span>01</span>
+
+                    <h3>Sensor</h3>
+
+                    <p>
+                        O sensor verifica a umidade presente
+                        no solo.
+                    </p>
+                </div>
+
+                <div class="step">
+                    <span>02</span>
+
+                    <h3>Dados</h3>
+
+                    <p>
+                        As informações são analisadas pelo sistema.
+                    </p>
+                </div>
+
+                <div class="step">
+                    <span>03</span>
+
+                    <h3>Decisão</h3>
+
+                    <p>
+                        O sistema identifica se a plantação
+                        precisa de água.
+                    </p>
+                </div>
+
+                <div class="step">
+                    <span>04</span>
+
+                    <h3>Irrigação</h3>
+
+                    <p>
+                        A irrigação é realizada de maneira
+                        mais eficiente.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- BENEFÍCIOS -->
+        <section class="benefits">
+
+            <div class="section-title">
+
+                <span>BENEFÍCIOS</span>
+
+                <h2>
+                    Tecnologia e sustentabilidade
+                </h2>
+
+            </div>
+
+            <div class="benefit-list">
+
+                <div>
+                    <strong>💧</strong>
+                    <h3>Economia</h3>
+                    <p>Uso mais consciente da água.</p>
+                </div>
+
+                <div>
+                    <strong>🌱</strong>
+                    <h3>Sustentabilidade</h3>
+                    <p>Preservação dos recursos naturais.</p>
+                </div>
+
+                <div>
+                    <strong>📈</strong>
+                    <h3>Eficiência</h3>
+                    <p>Melhor aproveitamento da irrigação.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- SOBRE -->
+        <section id="sobre" class="section about">
+
+            <div class="section-title">
+
+                <span>AGRINHO 2026</span>
+
+                <h2>
+                    Sobre o projeto
+                </h2>
+
+                <p>
+                    Este projeto foi desenvolvido como parte do
+                    Agrinho 2026, buscando apresentar uma ideia
+                    tecnológica que contribua para uma agricultura
+                    mais consciente e sustentável.
+                </p>
+
+            </div>
+
+            <div class="student-info">
+
+                <div>
+                    <strong>👩‍🎓 Aluna</strong>
+                    <p>Gabriella Bonette</p>
+                </div>
+
+                <div>
+                    <strong>👨‍🏫 Professor</strong>
+                    <p>Luiz Alessandro</p>
+                </div>
+
+                <div>
+                    <strong>🏫 Escola</strong>
+                    <p>Colégio Estadual Dom Pedro II</p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+
+        <div class="footer-logo">
+            🌱 AgroSmart
+        </div>
+
+        <p>
+            Projeto Agrinho 2026
+        </p>
+
+        <p>
+            Gabriella Bonette • Colégio Estadual Dom Pedro II
+        </p>
+
+        <p class="copyright">
+            © 2026 AgroSmart. Projeto educacional.
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
